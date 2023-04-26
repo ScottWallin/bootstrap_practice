@@ -9,7 +9,115 @@
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
+
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+  }
+
+  body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+  }
+</style>
+<!-- DON'T FORGET TO REMOVE DEBUG -->
 <body>
+<!-- HEADER -->
+<header class="container-fluid">
+  <section class="row align-items-center pink-bg">
+    <div class="col-12 col-md-6 justify-content-end">
+      <h1 class="fancy-font">109Leadr</h1>
+    </div>
+    <div class="col-12 col-md-6 d-flex justify-content-end ">
+
+        <p class="px-3 m-0">FEATURED</p>
+        <p class="px-3 m-0">START NOW</p>
+
+    </div>
+  </section>
+</header>
+
+<main class="container-fluid">
+
+  <!-- SECTION Your jobs, our news & phone photo -->
+  <section class="row pink-bg">
+    <div class="col-12 col-md-6">
+      <h1 class="text-center m-0">Your jobs,</h1>
+      <h1 class="text-center fw-bold">our news.</h1>
+      <p>Arigatou Ureshiii damasu, Baka damaru chikara doko Oniisan Daijobu Oppai. Itadakimasu Tomodachi Kawaii arigatou fuzakeru Ureshiii Senpai Tomodachi Oppai, itadakimasu kimochi Kawaii Kawaii. Senpai Oniisan Sugoi okasan doki doki doko itadakimasu Otaku.
+      </p>
+      <button class="mdi mdi-apple btn btn-outline-light">Download for Apple</button>
+      <button class="mdi mdi-android btn btn-outline-light">Download for Android</button>
+    </div>
+    <div class="col-12 col-md-6">
+      <img class="w-100 rounded-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ2bQYBGU2D0FSHelCVh42HH1uWdsW4DILEA&usqp=CAU" alt="">
+    </div>
+  </section>
   
+  <!-- SECTION FEATURES -->
+  <section class="row gold-bg">
+    <!-- <div> -->
+      <h1 class="text-center">Features</h1>
+      <p class="text-center">Puppy kitty ipsum dolor sit good dog foot stick canary.</p>
+
+      <div class="col-12 col-md-4 text-center">
+        <i class="mdi mdi-bag-suitcase"></i>
+          <p class="text-center">Your jobs</p>
+         <p>Teeth Mittens grooming vaccine walk swimming nest good boy furry tongue heel furry treats fish.</p>
+      </div>
+
+      <div class="col-12 col-md-4 text-center">
+        <i class="mdi mdi-newspaper"></i>
+        <p class="text-center">Read News</p>
+        <p>Cage run fast kitten dinnertime ball run foot park fleas throw house train licks stick dinnertime window. </p>
+      </div>
+
+      <div class="col-12 col-md-4 text-center">
+        <i class="mdi mdi-message-outline"></i>
+        <p class="text-center">News about jobs</p>
+        <p>Yawn litter fish yawn toy pet gate throw Buddy kitty wag tail ball groom crate ferret heel wet nose Rover toys pet supplies.</p>
+      </div>
+    <!-- </div> -->
+  </section>
+  
+  <!-- SECTION  SOMETHING IN FRENCH IDK BUT THIRD SECTION -->
+  <section class="row pink-bg">
+    <div class="col-12 col-md-6">
+      <img class="w-100 rounded-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ9fcn1UnUWqbjbiblvhSFryoTNGBRFTyijQ&usqp=CAU" alt="">
+    </div>
+    <div class="col-12 col-md-6">
+      <h1>Notizie per più di 7 professioni</h1>
+      <p>Doggo ipsum fluffer boofers corgo much ruin diet pupper, shooberino fluffer adorable doggo. Smol puggorino boof long bois I am bekom fat, super chub fluffer super chub. Wow such tempt very good spot I am bekom fat heckin good boys very taste wow such treat, wrinkler clouds he made many woofs puggo. Puggorino pupperino doggo, ur givin me a spook. </p>
+    </div>
+  </section>
+  
+  <!-- SECTION bottom section  -->
+  <section class="row bg-dark text-white">
+    <div class="col-12 col-md-4">
+      <h5 class="fancy-font pt-3">109leadr</h5>
+      <p class="m-0">P. Sherman
+        <p class="m-0">42 Wallaby Way</p>
+        <p class="m-0">Sydney, Australia</p>
+      </p>
+    </div>
+    <div class="col-12 col-md-4 text-center d-flex align-items-center justify-content-center">
+      <i class="mdi mdi-apple fs-3"></i>
+      <i class="mdi mdi-android fs-3"></i>
+    </div>
+    <div class="col-12 col-md-4 text-center pt-3">
+      <button class="mdi mdi-facebook btn btn-outline-light"></button>
+      <button class="mdi mdi-twitter btn btn-outline-light"></button>
+      <p class="">Rendevous - Credits</p>
+    </div>
+  </section>
+  
+</main>
 </body>
 </html>
